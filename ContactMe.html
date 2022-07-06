@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shaquille's contacts</title>
+  </head>
+  <body>
+    <h1><b>My contact info</b></h1>
+    <hr />
+    <ul>
+      <li>my numbers</li>
+      <li>my address</li>
+      <li>my email</li>
+    </ul>
+    <br />
+
+    <form
+      action="mailto:johnsonshaquille2116@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <table>
+        <th><h3>Fill out the form to contact me</h3></th>
+        <tr>
+          <td><label for="">Name</label></td>
+          <td><input type="text" name="Name" /></td>
+        </tr>
+        <tr>
+          <td><label for="">Email address</label></td>
+          <td><input type="email" name="Email" /></td>
+        </tr>
+        <tr>
+          <td><label for="">phone number</label></td>
+          <td><input type="text" name="Phone number" /></td>
+        </tr>
+        <tr>
+          <td><label for="">Reason for contacting me</label></td>
+          <td>
+            <textarea
+              name="reasons for contacting"
+              cols="20"
+              rows="5"
+              style="resize: none"
+              placeholder="Enter your reason here"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">Have you contacted me before?</label></td>
+          <td>
+            <input type="checkbox" name="have they contacted you before" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">Date you contacted me</label></td>
+          <td><input type="date" name="the date they contacted you" /></td>
+        </tr>
+        <tr>
+          <td>
+            <center><input type="submit" value="Submit" /></center>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <hr />
+    <a href="Index.html">Back to my homepage</a>
+  </body>
+</html>
